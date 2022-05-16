@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: Prata sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+}
+p {
+  position: relative;
+  font-family: "Montserrat" sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+button {
+  color: white;
+  background-color: #302c2c;
+  outline: none;
+  border: none;
+  width: 183px;
+  height: 51px;
+  font-size: 16px;
+  font-family: "Montserra" sans-serif;
+  transition: 0.2s;
+  &:hover {
+    opacity: 0.85;
+  }
+  &:focus {
+    outline: none;
+    border: none;
+  }
+}
+
+#shoptogether {
+  .shoptogether {
+    height: 800px;
+    background-image: url(/assets/images/babycart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text {
+      position: relative;
+      top: 300px;
+      left: 330px;
+      font-weight: 400;
+      text-align: left;
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        max-width: 450px;
+        margin-top: 30px;
+      }
+      button {
+        position: relative;
+        margin-top: 30px;
+      }
+    }
+  }
+}
+
+#explore {
+  .explore {
+    height: 900px;
+
+    .text {
+      display: grid;
+      justify-content: center;
+      position: relative;
+      top: 100px;
+      font-weight: 400;
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        max-width: 530px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      button {
+        position: relative;
+        margin-top: 30px;
+      }
+    }
+    .cards {
+      display: flex;
+      gap: 150px;
+      width: 50%;
+      position: relative;
+      top: 170px;
+      left: 250px;
+      .clothes {
+        height: 100px;
+      }
+      img {
+        height: 500px;
+      }
+      button {
+        position: relative;
+        bottom: 25px;
+        margin-left: 105px;
+      }
+    }
+  }
+}
+
+#ourstory {
+  .ourstory {
+    height: 800px;
+    display: flex;
+    .text {
+      position: relative;
+      top: 300px;
+      left: 330px;
+      font-weight: 400;
+      text-align: left;
+      h2 {
+        font-size: 48px;
+        max-width: 500px;
+      }
+      p {
+        max-width: 450px;
+        margin-top: 30px;
+      }
+      button {
+        position: relative;
+        margin-top: 30px;
+      }
+    }
+    .image {
+      position: relative;
+      top: 300px;
+      left: 100px;
+      width: 600px;
+      img {
+        height: 500px;
+        width: 496px;
+      }
+    }
+  }
+}

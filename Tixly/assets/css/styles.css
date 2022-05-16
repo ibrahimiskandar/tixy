@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h2 {
+  font-family: Prata sans-serif;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+p {
+  position: relative;
+  font-family: "Montserrat" sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button {
+  color: white;
+  background-color: #302c2c;
+  outline: none;
+  border: none;
+  width: 183px;
+  height: 51px;
+  font-size: 16px;
+  font-family: "Montserra" sans-serif;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+button:focus {
+  outline: none;
+  border: none;
+}
+
+#shoptogether .shoptogether {
+  height: 800px;
+  background-image: url(/assets/images/babycart.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#shoptogether .shoptogether .text {
+  position: relative;
+  top: 300px;
+  left: 330px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#shoptogether .shoptogether .text h2 {
+  font-size: 48px;
+}
+
+#shoptogether .shoptogether .text p {
+  max-width: 450px;
+  margin-top: 30px;
+}
+
+#shoptogether .shoptogether .text button {
+  position: relative;
+  margin-top: 30px;
+}
+
+#explore .explore {
+  height: 900px;
+}
+
+#explore .explore .text {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 100px;
+  font-weight: 400;
+}
+
+#explore .explore .text h2 {
+  font-size: 48px;
+}
+
+#explore .explore .text p {
+  max-width: 530px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#explore .explore .text button {
+  position: relative;
+  margin-top: 30px;
+}
+
+#explore .explore .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 150px;
+  width: 50%;
+  position: relative;
+  top: 170px;
+  left: 250px;
+}
+
+#explore .explore .cards .clothes {
+  height: 100px;
+}
+
+#explore .explore .cards img {
+  height: 500px;
+}
+
+#explore .explore .cards button {
+  position: relative;
+  bottom: 25px;
+  margin-left: 105px;
+}
+
+#ourstory .ourstory {
+  height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#ourstory .ourstory .text {
+  position: relative;
+  top: 300px;
+  left: 330px;
+  font-weight: 400;
+  text-align: left;
+}
+
+#ourstory .ourstory .text h2 {
+  font-size: 48px;
+  max-width: 500px;
+}
+
+#ourstory .ourstory .text p {
+  max-width: 450px;
+  margin-top: 30px;
+}
+
+#ourstory .ourstory .text button {
+  position: relative;
+  margin-top: 30px;
+}
+
+#ourstory .ourstory .image {
+  position: relative;
+  top: 300px;
+  left: 100px;
+  width: 600px;
+}
+
+#ourstory .ourstory .image img {
+  height: 500px;
+  width: 496px;
+}
